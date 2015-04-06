@@ -5,8 +5,8 @@ from django.apps.config import AppConfig
 
 class AdminToolsDashboardConfig(AppConfig):
     """ Admin tools dashboard app configuration """
-    name = 'admin_tools_dashboard'
-    label = 'admin_tools.dashboard'
+    name = 'admin_tools.dashboard'
+    label = 'admin_tools_dashboard'
 
     def ready(self):
         """ Actions when django's app registry is ready """
