@@ -2,6 +2,12 @@
 django-admin-tools changelog
 ============================
 
+Version 0.5.3, 6 April 2015:
+------------------------------
+
+* Added django 1.7 and 1.8 support, native migrations
+
+
 Version 0.5.2, 11 August 2014:
 ------------------------------
 
