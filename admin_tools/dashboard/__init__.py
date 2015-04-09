@@ -12,3 +12,5 @@ class AdminToolsDashboardConfig(AppConfig):
         """ Actions when django's app registry is ready """
         pass
 
+default_app_config = 'admin_tools.dashboard.AdminToolsDashboardConfig'
+

@@ -11,3 +11,5 @@ class AdminToolsMenuConfig(AppConfig):
         """ Actions when django's app registry is ready """
         pass
 
+default_app_config = 'admin_tools.menu.AdminToolsMenuConfig'
+
